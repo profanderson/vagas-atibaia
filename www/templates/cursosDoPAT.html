@@ -1,0 +1,40 @@
+<ion-view title="Cursos do PAT" id="page12">
+  <ion-content padding="true" class="has-header">
+    <form id="cursosDoPAT-form5" class="list">
+      <label class="item item-select" id="cursosDoPAT-select2">
+        <span class="input-label">Cursos:</span>
+        <select id="listaCursos" onchange = "tela(document.getElementById('listaCursos').value);">
+          <option value="cursosPat" selected>PAT</option>
+          <option value="cursosEtec">Etec Carmine</option>
+        </select>
+      </label>
+    </form>
+    <div>
+      <img src="img/JD4ji8DmRkmvNZ47LDSk_pea.png" style="display: block; width: 200px; height: auto; margin-left: auto; margin-right: auto;">
+        
+      <div align="center" id="loadPATc">
+         <img src="./img/load.gif">
+      </div>
+        
+    </div>
+    <div class="spacer" style="width: 300px; height: 42px;"></div>
+    <div id="listaCursosPAT"></div>
+      
+      
+      <h3>Como se inscrever nos cursos gratuitos do PAT?</h3>
+      <p>
+          As incrições nos cursos do PAT devem ser realizadas através do site
+          
+          <a href="javascript:void(0)" onclick="navegador('http://www.atibaia.sp.gov.br/pat/index.asp')">
+          http://www.atibaia.sp.gov.br/pat/index.asp
+              </a>
+          
+      </p>
+      <p>
+          Em caso de dúvidas, entre em contato. O PAT fica na 
+          Avenida da Saudade, 287 - Centro - Atibaia - SP / CEP: 12940-560 
+ (11) 4414-2141 - (11) 4414-2072.
+      </p>
+      
+  </ion-content>
+</ion-view>

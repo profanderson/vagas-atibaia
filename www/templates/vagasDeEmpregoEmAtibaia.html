@@ -1,0 +1,34 @@
+<ion-view title="Vagas de emprego em Atibaia" id="page1" style="background-image: url('img/helio-matuo.jpg');">
+  <ion-content padding="true" class="has-header">
+    <form id="vagasDeEmpregoEmAtibaia-form1" class="list">
+      <div id="vagasDeEmpregoEmAtibaia-button-bar1" class="button-bar">
+        <button id="vagasDeEmpregoEmAtibaia-button4" class="button button-stable  button-block icon ion-ios-home"></button>
+        <a ui-sref="notificaEs" id="vagasDeEmpregoEmAtibaia-button5" class="button button-positive  button-block icon ion-android-notifications"></a>
+        <a ui-sref="sobre" id="vagasDeEmpregoEmAtibaia-button6" class="button button-positive  button-block icon ion-android-bulb"></a>
+        <button id="vagasDeEmpregoEmAtibaia-button10" class="button button-positive  button-block icon ion-android-exit" onclick="sair()"></button>
+      </div>
+        
+        <div class="spacer" style="width: 300px; height: 40px;"></div>
+        
+      <a ui-sref="vagasDoPAT" id="vagasDeEmpregoEmAtibaia-button7" class="button button-balanced  button-block "  onclick="vagasPat();"><strong>Vagas do PAT</strong>  <ion-icon name="search"></ion-icon></a>
+      <a ui-sref="vagasDoAtibaiaComBr" id="vagasDeEmpregoEmAtibaia-button8" class="button button-balanced  button-block "  onclick="vagasAtibaia();"><strong>Vagas do atibaia.com.br</strong>  <ion-icon name="search"></ion-icon></a>
+      <a ui-sref="vagasDaRMDesenvEmRH" id="vagasDeEmpregoEmAtibaia-button9" class="button button-balanced  button-block" onclick="vagasRM();"><strong>Vagas da RM Desenv. Corporativo</strong>  <ion-icon name="search"></ion-icon></a>
+      <div class="spacer" style="width: 300px; height: 40px;"></div>
+
+        
+       <a ui-sref="cursosDoPAT" id="vagasDeEmpregoEmAtibaia-button9" class="button button-positive button-block" onclick="cursosPat();">Cursos gratuitos do PAT</a>        
+       
+       <a ui-sref="cursosDaEtec" id="vagasDeEmpregoEmAtibaia-button9" class="button button-positive button-block" onclick="tela('cursosEtec');">Cursos gratuitos da Etec</a>
+
+        <div class="spacer" style="width: 300px; height: 40px;"></div>
+        
+    
+    </form>       
+  </ion-content>
+
+     <div style="background-color: #fff; text-align:center; opacity: 0.8; position: absolute; right: 0; bottom: 0; left: 0; padding: 1rem; background-color: #efefef; text-align: center;">
+            <strong>Curso Técnico em Informática</strong><br>Etec Carmine Biagio Tundisi
+      </div>
+
+
+</ion-view>
