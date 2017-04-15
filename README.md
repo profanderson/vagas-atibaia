@@ -26,6 +26,8 @@ Utiliza:
 * apache cordova
 * troca de dados usando jSON
 
+Pode-se importar no Intel XDK, ou PhoneGap se preferir.
+
 ## Ionic
 Se desejar alterar o layout do aplicativo, faça se baseando na documentação do Ionic - http://ionicframework.com/
 
