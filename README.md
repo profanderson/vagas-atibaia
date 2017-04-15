@@ -12,6 +12,8 @@ Os arquivos PHP devem estar hospedados na Internet, uma alternativa eficiente e 
 ## Saídas jSON
 Os arquivos PHP geram um outro arquivo PHP que contém os dados formatados em jSON para que o JavaScript do aplicativo possa ler e carregar estes dados.
 
+Estes arquivos devem estar configurados no CRON do servidor, ou, você deverá executá-los periodicamente pois, são eles que manterão os anúcios das vagas atualizados.
+
 Se você nunca trabalhou com web service e jSON, dê uma olhada nesta aula, publicada em meu blog;
 http://profanderson.blog.etecarmine.com.br/json-criando-o-web-service/
 http://profanderson.blog.etecarmine.com.br/json-conectando-seu-app-ao-webservice/
