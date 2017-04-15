@@ -4,7 +4,7 @@ https://play.google.com/store/apps/details?id=etec.emprego.atibaia
 
 ![O alt](https://lh3.googleusercontent.com/yl6BfsjhssckiaLE32fQeUB5UA1gJTDpS7qwZIpoKv9wLwEqajLKrJAZ-BXCHD_xTes=h900-rw "Aplicativo Vagas Atibaia")
 
-Começe a implementar este projeto partindo do web service.
+Comece a implementar este projeto partindo do web service.
 
 # Web Service
 São arquivos PHP que devem extrair os dados das páginas WEB que você desejar. A extração depende muito da semântica HTML que foi usada na página, portanto, cada página alvo deverá ter um script extrator exclusivo para ela. A pasta webservice tráz 4 exemplos de extração, deve-se primeiro ler todo o HTML da página alvo e ir tratando linha a linha os conteúdos que devem ser extraídos.
