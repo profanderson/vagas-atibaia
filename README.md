@@ -2,6 +2,8 @@
 Aplicativo desenvolvido em Ionic e Cordova para agregar anúncios de vagas de emprego.
 https://play.google.com/store/apps/details?id=etec.emprego.atibaia
 
+![O alt](https://lh3.googleusercontent.com/yl6BfsjhssckiaLE32fQeUB5UA1gJTDpS7qwZIpoKv9wLwEqajLKrJAZ-BXCHD_xTes=h900-rw "Aplicativo Vagas Atibaia")
+
 Começe a implementar este projeto partindo do web service.
 
 # Web Service
