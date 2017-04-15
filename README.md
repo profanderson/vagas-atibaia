@@ -4,8 +4,8 @@ Aplicativo desenvolvido em Ionic e Cordova para agregar anúncios de vagas de em
 # Google Play
 https://play.google.com/store/apps/details?id=etec.emprego.atibaia
 
-# Mineração
-A mineração extrai dados das páginas;  
+# Extração de Dados
+A mineração extrai dados das páginas e troca dados com o app usando jSON;  
 
 http://atibaia.com.br/vagas/
 http://www.atibaia.com.br/vagas/
